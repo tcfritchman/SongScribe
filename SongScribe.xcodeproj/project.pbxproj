@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E900324419E4C09400395A04 /* SCRMemoryButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E900324319E4C09400395A04 /* SCRMemoryButton.m */; };
+		E9B172AF19ABDE400033AA98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B172AE19ABDE400033AA98 /* Foundation.framework */; };
+		E9B172B119ABDE400033AA98 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B172B019ABDE400033AA98 /* CoreGraphics.framework */; };
+		E9B172B319ABDE400033AA98 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B172B219ABDE400033AA98 /* UIKit.framework */; };
+		E9B172B919ABDE400033AA98 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9B172B719ABDE400033AA98 /* InfoPlist.strings */; };
+		E9B172BB19ABDE400033AA98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B172BA19ABDE400033AA98 /* main.m */; };
+		E9B172BF19ABDE400033AA98 /* SCRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B172BE19ABDE400033AA98 /* SCRAppDelegate.m */; };
+		E9B172C219ABDE400033AA98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9B172C019ABDE400033AA98 /* Main.storyboard */; };
+		E9B172C519ABDE400033AA98 /* SCRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B172C419ABDE400033AA98 /* SCRViewController.m */; };
+		E9B172CE19ABDE410033AA98 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B172CD19ABDE410033AA98 /* XCTest.framework */; };
+		E9B172CF19ABDE410033AA98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B172AE19ABDE400033AA98 /* Foundation.framework */; };
+		E9B172D019ABDE410033AA98 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B172B219ABDE400033AA98 /* UIKit.framework */; };
+		E9B172D819ABDE410033AA98 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9B172D619ABDE410033AA98 /* InfoPlist.strings */; };
+		E9B172DA19ABDE410033AA98 /* SongScribeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B172D919ABDE410033AA98 /* SongScribeTests.m */; };
+		E9B172E419ABE6670033AA98 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B172E319ABE6670033AA98 /* AVFoundation.framework */; };
+		E9C7700719E70F5D0083DAD7 /* SCRMemoryLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C7700619E70F5D0083DAD7 /* SCRMemoryLocation.m */; };
+		E9E6872019AEA3B200F59543 /* SCRPositionSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E6871F19AEA3B200F59543 /* SCRPositionSlider.m */; };
+		E9F405BD1AAFE84500B36138 /* SCRWaveformView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F405BC1AAFE84500B36138 /* SCRWaveformView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9B172D119ABDE410033AA98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9B172A319ABDE400033AA98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9B172AA19ABDE400033AA98;
+			remoteInfo = SongScribe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E900324219E4C09400395A04 /* SCRMemoryButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCRMemoryButton.h; sourceTree = "<group>"; };
+		E900324319E4C09400395A04 /* SCRMemoryButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCRMemoryButton.m; sourceTree = "<group>"; };
+		E9B172AB19ABDE400033AA98 /* SongScribe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SongScribe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9B172AE19ABDE400033AA98 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E9B172B019ABDE400033AA98 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E9B172B219ABDE400033AA98 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E9B172B619ABDE400033AA98 /* SongScribe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SongScribe-Info.plist"; sourceTree = "<group>"; };
+		E9B172B819ABDE400033AA98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E9B172BA19ABDE400033AA98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9B172BC19ABDE400033AA98 /* SongScribe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SongScribe-Prefix.pch"; sourceTree = "<group>"; };
+		E9B172BD19ABDE400033AA98 /* SCRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCRAppDelegate.h; sourceTree = "<group>"; };
+		E9B172BE19ABDE400033AA98 /* SCRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCRAppDelegate.m; sourceTree = "<group>"; };
+		E9B172C119ABDE400033AA98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9B172C319ABDE400033AA98 /* SCRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCRViewController.h; sourceTree = "<group>"; };
+		E9B172C419ABDE400033AA98 /* SCRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCRViewController.m; sourceTree = "<group>"; };
+		E9B172CC19ABDE410033AA98 /* SongScribeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SongScribeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9B172CD19ABDE410033AA98 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E9B172D519ABDE410033AA98 /* SongScribeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SongScribeTests-Info.plist"; sourceTree = "<group>"; };
+		E9B172D719ABDE410033AA98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E9B172D919ABDE410033AA98 /* SongScribeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SongScribeTests.m; sourceTree = "<group>"; };
+		E9B172E319ABE6670033AA98 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E9BB4D8519AC2FA5007D10CC /* SCRWaveformView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCRWaveformView.h; sourceTree = "<group>"; };
+		E9C7700519E70F5D0083DAD7 /* SCRMemoryLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCRMemoryLocation.h; sourceTree = "<group>"; };
+		E9C7700619E70F5D0083DAD7 /* SCRMemoryLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCRMemoryLocation.m; sourceTree = "<group>"; };
+		E9E6871E19AEA3B200F59543 /* SCRPositionSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCRPositionSlider.h; sourceTree = "<group>"; };
+		E9E6871F19AEA3B200F59543 /* SCRPositionSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCRPositionSlider.m; sourceTree = "<group>"; };
+		E9F405BC1AAFE84500B36138 /* SCRWaveformView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCRWaveformView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9B172A819ABDE400033AA98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B172E419ABE6670033AA98 /* AVFoundation.framework in Frameworks */,
+				E9B172B119ABDE400033AA98 /* CoreGraphics.framework in Frameworks */,
+				E9B172B319ABDE400033AA98 /* UIKit.framework in Frameworks */,
+				E9B172AF19ABDE400033AA98 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B172C919ABDE410033AA98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B172CE19ABDE410033AA98 /* XCTest.framework in Frameworks */,
+				E9B172D019ABDE410033AA98 /* UIKit.framework in Frameworks */,
+				E9B172CF19ABDE410033AA98 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9B172A219ABDE400033AA98 = {
+			isa = PBXGroup;
+			children = (
+				E9B172B419ABDE400033AA98 /* SongScribe */,
+				E9B172D319ABDE410033AA98 /* SongScribeTests */,
+				E9B172AD19ABDE400033AA98 /* Frameworks */,
+				E9B172AC19ABDE400033AA98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9B172AC19ABDE400033AA98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9B172AB19ABDE400033AA98 /* SongScribe.app */,
+				E9B172CC19ABDE410033AA98 /* SongScribeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9B172AD19ABDE400033AA98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9B172E319ABE6670033AA98 /* AVFoundation.framework */,
+				E9B172AE19ABDE400033AA98 /* Foundation.framework */,
+				E9B172B019ABDE400033AA98 /* CoreGraphics.framework */,
+				E9B172B219ABDE400033AA98 /* UIKit.framework */,
+				E9B172CD19ABDE410033AA98 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9B172B419ABDE400033AA98 /* SongScribe */ = {
+			isa = PBXGroup;
+			children = (
+				E9BB4D8519AC2FA5007D10CC /* SCRWaveformView.h */,
+				E9F405BC1AAFE84500B36138 /* SCRWaveformView.m */,
+				E900324219E4C09400395A04 /* SCRMemoryButton.h */,
+				E900324319E4C09400395A04 /* SCRMemoryButton.m */,
+				E9E6871E19AEA3B200F59543 /* SCRPositionSlider.h */,
+				E9E6871F19AEA3B200F59543 /* SCRPositionSlider.m */,
+				E9B172BD19ABDE400033AA98 /* SCRAppDelegate.h */,
+				E9B172BE19ABDE400033AA98 /* SCRAppDelegate.m */,
+				E9B172C019ABDE400033AA98 /* Main.storyboard */,
+				E9B172C319ABDE400033AA98 /* SCRViewController.h */,
+				E9B172C419ABDE400033AA98 /* SCRViewController.m */,
+				E9C7700519E70F5D0083DAD7 /* SCRMemoryLocation.h */,
+				E9C7700619E70F5D0083DAD7 /* SCRMemoryLocation.m */,
+				E9B172B519ABDE400033AA98 /* Supporting Files */,
+			);
+			path = SongScribe;
+			sourceTree = "<group>";
+		};
+		E9B172B519ABDE400033AA98 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9B172B619ABDE400033AA98 /* SongScribe-Info.plist */,
+				E9B172B719ABDE400033AA98 /* InfoPlist.strings */,
+				E9B172BA19ABDE400033AA98 /* main.m */,
+				E9B172BC19ABDE400033AA98 /* SongScribe-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E9B172D319ABDE410033AA98 /* SongScribeTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9B172D919ABDE410033AA98 /* SongScribeTests.m */,
+				E9B172D419ABDE410033AA98 /* Supporting Files */,
+			);
+			path = SongScribeTests;
+			sourceTree = "<group>";
+		};
+		E9B172D419ABDE410033AA98 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9B172D519ABDE410033AA98 /* SongScribeTests-Info.plist */,
+				E9B172D619ABDE410033AA98 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9B172AA19ABDE400033AA98 /* SongScribe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9B172DD19ABDE410033AA98 /* Build configuration list for PBXNativeTarget "SongScribe" */;
+			buildPhases = (
+				E9B172A719ABDE400033AA98 /* Sources */,
+				E9B172A819ABDE400033AA98 /* Frameworks */,
+				E9B172A919ABDE400033AA98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SongScribe;
+			productName = SongScribe;
+			productReference = E9B172AB19ABDE400033AA98 /* SongScribe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9B172CB19ABDE410033AA98 /* SongScribeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9B172E019ABDE410033AA98 /* Build configuration list for PBXNativeTarget "SongScribeTests" */;
+			buildPhases = (
+				E9B172C819ABDE410033AA98 /* Sources */,
+				E9B172C919ABDE410033AA98 /* Frameworks */,
+				E9B172CA19ABDE410033AA98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9B172D219ABDE410033AA98 /* PBXTargetDependency */,
+			);
+			name = SongScribeTests;
+			productName = SongScribeTests;
+			productReference = E9B172CC19ABDE410033AA98 /* SongScribeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9B172A319ABDE400033AA98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SCR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = tcfritchman;
+				TargetAttributes = {
+					E9B172AA19ABDE400033AA98 = {
+						DevelopmentTeam = FB2K86R62G;
+					};
+					E9B172CB19ABDE410033AA98 = {
+						TestTargetID = E9B172AA19ABDE400033AA98;
+					};
+				};
+			};
+			buildConfigurationList = E9B172A619ABDE400033AA98 /* Build configuration list for PBXProject "SongScribe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9B172A219ABDE400033AA98;
+			productRefGroup = E9B172AC19ABDE400033AA98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9B172AA19ABDE400033AA98 /* SongScribe */,
+				E9B172CB19ABDE410033AA98 /* SongScribeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9B172A919ABDE400033AA98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B172B919ABDE400033AA98 /* InfoPlist.strings in Resources */,
+				E9B172C219ABDE400033AA98 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B172CA19ABDE410033AA98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B172D819ABDE410033AA98 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9B172A719ABDE400033AA98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B172BB19ABDE400033AA98 /* main.m in Sources */,
+				E9F405BD1AAFE84500B36138 /* SCRWaveformView.m in Sources */,
+				E900324419E4C09400395A04 /* SCRMemoryButton.m in Sources */,
+				E9B172C519ABDE400033AA98 /* SCRViewController.m in Sources */,
+				E9C7700719E70F5D0083DAD7 /* SCRMemoryLocation.m in Sources */,
+				E9E6872019AEA3B200F59543 /* SCRPositionSlider.m in Sources */,
+				E9B172BF19ABDE400033AA98 /* SCRAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B172C819ABDE410033AA98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B172DA19ABDE410033AA98 /* SongScribeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9B172D219ABDE410033AA98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9B172AA19ABDE400033AA98 /* SongScribe */;
+			targetProxy = E9B172D119ABDE410033AA98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E9B172B719ABDE400033AA98 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9B172B819ABDE400033AA98 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E9B172C019ABDE400033AA98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9B172C119ABDE400033AA98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E9B172D619ABDE410033AA98 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9B172D719ABDE410033AA98 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9B172DB19ABDE410033AA98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E9B172DC19ABDE410033AA98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9B172DE19ABDE410033AA98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SongScribe/SongScribe-Prefix.pch";
+				INFOPLIST_FILE = "SongScribe/SongScribe-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5d36347b-3325-47e5-8fc1-a8c729b659f4";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E9B172DF19ABDE410033AA98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SongScribe/SongScribe-Prefix.pch";
+				INFOPLIST_FILE = "SongScribe/SongScribe-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5d36347b-3325-47e5-8fc1-a8c729b659f4";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E9B172E119ABDE410033AA98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SongScribe.app/SongScribe";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SongScribe/SongScribe-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SongScribeTests/SongScribeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E9B172E219ABDE410033AA98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SongScribe.app/SongScribe";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SongScribe/SongScribe-Prefix.pch";
+				INFOPLIST_FILE = "SongScribeTests/SongScribeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9B172A619ABDE400033AA98 /* Build configuration list for PBXProject "SongScribe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9B172DB19ABDE410033AA98 /* Debug */,
+				E9B172DC19ABDE410033AA98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9B172DD19ABDE410033AA98 /* Build configuration list for PBXNativeTarget "SongScribe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9B172DE19ABDE410033AA98 /* Debug */,
+				E9B172DF19ABDE410033AA98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9B172E019ABDE410033AA98 /* Build configuration list for PBXNativeTarget "SongScribeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9B172E119ABDE410033AA98 /* Debug */,
+				E9B172E219ABDE410033AA98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9B172A319ABDE400033AA98 /* Project object */;
+}
